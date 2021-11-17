@@ -1,0 +1,10 @@
+.box-area .card{
+    border:none;
+    transition:0.2s;
+    animation:ease-in-out;
+    overflow:hidden;
+}
+.box-area .card:hover{
+    transform: scale(1);
+    box-shadow: 0 5px 13px 0px #eae8e87a;
+}

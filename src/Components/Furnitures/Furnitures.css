@@ -1,0 +1,39 @@
+.furniture-area nav li{
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.furniture-area nav .active{
+    color: red;
+}
+
+.furniture-area nav .active::after{
+    content: "";
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(255, 69, 101);
+    display: block;
+}
+.furniture-area .card{
+    border: none;
+}
+.furniture-area .card-img-top{
+    width: 60%;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.furniture-area div > a{
+    color: #000;
+}
+
+.furniture-area div > a:hover{
+    text-decoration: none;
+}
+
+.furniture-area .card:hover{
+    box-shadow: 0 5px 13px 0px #eae8e87a;
+}

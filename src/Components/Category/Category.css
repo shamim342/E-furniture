@@ -1,0 +1,27 @@
+.circle{
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    cursor: pointer;
+    color:rgb(141, 141, 141)
+}
+
+    .circle:hover {
+      animation: circle-border-spin infinite 10s linear;
+      border:2px dashed red;
+      color:rgb(187, 174, 174)
+    }
+ 
+  @keyframes circle-border-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

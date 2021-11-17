@@ -1,0 +1,13 @@
+.custom-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+}
+
+.custom-form {
+    /* background-color: aqua; */
+}
+
+.custom-widith {
+    width: 100%;
+}
